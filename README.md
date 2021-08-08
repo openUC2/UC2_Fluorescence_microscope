@@ -8,7 +8,7 @@
 
 This is the repository for the laser-based fluorescence microscope with infinity optics. It is capable to acquire Time-Lapse videos from living cells inside an incubator.
 
-The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](https://github.com/openUC2/UC2-GIT/CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2) for our system
+The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](https://github.com/openUC2/UC2-GIT/tree/master/CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2) for our system
 
 The setup looks as follows:
 
@@ -55,13 +55,13 @@ Get those from the main repository - [CAD]() folder.
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  Baseplate puzzle| - | 5€  | [Base-plate](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_Baseplate/)  | 20|
-|  Module: Z-Stage | - | ?? €  | [Z-Stage](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+|  Baseplate puzzle| - | 5€  | [Base-plate](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate/)  | 20|
+|  Module: Z-Stage | - | ?? €  | [Z-Stage](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
 | (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](https://github.com/openUC2/UC2-GIT/CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2)  | 1|
-|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 4|
-|  Module: Alvium CMOS Camera  | Low-Cost Camera | 5€  | [Alvium Camera](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)  | 4|
-|  Module: Beamexpander  | Expands beam by ~3x | ??€  | [Beamexpander](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
-|  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Bam splitter](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
+|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 4|
+|  Module: Alvium CMOS Camera  | Low-Cost Camera | 5€  | [Alvium Camera](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)  | 4|
+|  Module: Beamexpander  | Expands beam by ~3x | ??€  | [Beamexpander](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
+|  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Bam splitter](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
 
 
 ## Bill of material
@@ -72,7 +72,7 @@ Below you will find all components necessary to build this device
 ### Additional parts
 (**TODO:** need to be updated!)
 
-* Check out the [RESOURCES](https://github.com/openUC2/UC2-GIT/TUTORIALS/RESOURCES) for more information!
+* Check out the [RESOURCES](https://github.com/openUC2/UC2-GIT/tree/master/TUTORIALS/RESOURCES) for more information!
 * 1× Laser Module, 635/637nm entertainment laser (laserlands.net, #3450, Dot Laser Module, 300mW, 50 Euro, China) [🢂](https://www.laserlands.net/diode-laser-module/600nm-640nm-orange-red-laser-module/635dot/200mw-300mw-637nm-638nm-laser-diode-module-ttl-stage-lighting-dj-show-12vdc.html)
 * 1x Objective lens, No Name, 100x, NA1.25, 50 Euro, China  [🢂](https://de.aliexpress.com/item/664303199.html)
 *  32× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
@@ -110,7 +110,7 @@ in List form:
 
 
 ### Electronics
-🢂 Find more in the [Electronics section](https://github.com/openUC2/UC2-GIT/ELECTRONICS)
+🢂 Find more in the [Electronics section](https://github.com/openUC2/UC2-GIT/tree/master/ELECTRONICS)
 
 
 ## Setup variants
@@ -127,7 +127,7 @@ To make it more stable you can "sandwich" it with a second baseplate | <img src=
 
 **Assembled Setups with a Jetson-driven mono camera:**
 
-For more infos about the camera look [here](https://github.com/openUC2/UC2-GIT/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)
+For more infos about the camera look [here](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)
 
 <img src="./IMAGES/photo_setup_1.jpg" width=500>
 
