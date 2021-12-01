@@ -8,7 +8,7 @@
 
 This is the repository for the laser-based fluorescence microscope with infinity optics. It is capable to acquire Time-Lapse videos from living cells inside an incubator.
 
-The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](https://github.com/openUC2/UC2-GIT/tree/master/CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2) for our system
+The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Openflexure_Deltastage) for our system.
 
 The setup looks as follows:
 
@@ -46,7 +46,7 @@ It is a very early developer version. Please feel free to contribute to the docu
 
 Below we describe how the device can be build and assembled in order to replicate the whole system as shown in the rendering above. One needs additional parts that can be found in the core [openUC2 repository](https://github.com/bionanoimaging/UC2-GIT).
 
-### Modules for this setup
+### Parts for this setup
 
 
 <p align="center">
@@ -62,13 +62,16 @@ Below we describe how the device can be build and assembled in order to replicat
 | 1 | Dichroic Mirror | DMLP650 | 250 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=DMLP650) |
 | 1 | Shortpass Filter (cleanup)  | FES0650 | 78 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=FES0650) |
 | 2 | Mirrors 1 inch                         | Silver, protected mirror | 50 €   | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF10-03-P01) |
-| 1 | Tube lense according to objective lens (imaging-side) | 80 mm for Allied Vision, 160 for Daheng Imaging, Achromat | 96 € | [Thoralbs](https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-080-A-ML)/[Thoralbs](https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-160-A-ML) |
-| 1 | Tube Lens (illumination-side) | Achromat, f 156,4mm / ∅ 40,0mm                                                                                   | 5,9 € / 96 €   | [PGI-Versand](https://astro-didaktik.de/achromat-2-linser-o-40-mm-f-156-4-mm.html)/[Thoralbs](https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-160-A-ML) |
+| 1 | Tube lense according to objective lens (imaging-side) | 80 mm for Allied Vision, 150 for Daheng Imaging, Achromat | 96 € | [Thoralbs](https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-080-A-ML)/[Thoralbs](https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-150-A-ML) |
+| 1 | Tube Lens (illumination-side) | Achromat, f 156,4mm / ∅40,0mm  or  f 150 mm / ∅25,4mm | 5,9 € / 96 €   | [PGI-Versand](https://astro-didaktik.de/achromat-2-linser-o-40-mm-f-156-4-mm.html)/[Thoralbs](https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-150-A-ML) |
 | 1 | M3 Screws, DIN ISO 912, various (buy a set) | | ? | Würth |
 | 1 | Microscope Objective lens | 1x Objective lens, No Name, 100x, NA1.25, 50 Euro, China                                               | 100 € | [Aliexpress](https://de.aliexpress.com/item/4000200609554.html) |
 | 1 | Beam Splitter Dichroic (Discontinued?) | Comar optics Dichro 740 IY als 45° | 40 € | Comar                                             |
 | 1 | Filter Emission (Discontinued?) | Emissionsfilter 655 IY als 0° | 40 € | Comar |
-|   200  | Magnets  | 5mm Ball Magnets, NEoxym  | 0,31 | [Magnetmax](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html?XTCsid=8a83b5bb1601ec808d634714960a4e25)         ||    4   | Mirrors 1 inch                            | Thoralbs                          | ~50    | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF10-03-P01)                                                                                         |  1x500 | Screws M3x12 | | ?  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) 
+|   200  | Magnets  | 5mm Ball Magnets, NEoxym  | 0,31 | [Magnetmax](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html?XTCsid=8a83b5bb1601ec808d634714960a4e25)         ||    4   | Mirrors 1 inch                            | Thoralbs                          | ~50    | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF10-03-P01)                                                                                         |  1x500 | Screws M3x12 | | ?  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+
+
+Find the complete [Bill-of-Materials here](UC2_Microscope_BillOfMaterial_STORM.xlsx)
 
 
 ## Modules
@@ -78,24 +81,22 @@ Below we describe how the device can be build and assembled in order to replicat
 |---|---|---|---|---|
 |  Baseplate puzzle| - | 5€  | [Base-plate](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate/)  | ~20|
 |  Module: Z-Stage | - | ?? €  | [Z-Stage](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_NEMA_MGN)  | 1|
-| (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](https://github.com/openUC2/UC2-GIT/CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2)  | 1|
-|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 2 |
+| (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Openflexure_Deltastage)  | 1|
+|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Kinematic Mirror 45](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 2 |
 |  Module: Alvium CMOS Camera  | Low-Cost Camera | 5€  | [Alvium Camera](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)  | 1|
 | Alternative (better) Daheng Imaging IMX174 | SMLM Camera | 5€  | [Alvium Camera](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)  | 1 |
-|  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Bam splitter](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
+|  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Beam splitter](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
 |  Module: Thorlabs + Lens (160mm, 80mm) | - | 5€  | [Thorlabs Insert](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Thorlabs)  | 2 |
-|  Module: Laser (Block) | - | 5€  | [Laser Block](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Laser)  | 2 |
+|  Module: Laser (Block) | - | 5€  | Just mount the laser on the insert using screws.   | 2 |
 |  Module: 45° Mirror  (Thorlabs) | - | 5€  | [Mirror](https://github.com/openUC2/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45)  | 2 |
 
-### Variants 
+### Variants
 
-We various different XY Stages:
+We use various different XY Stages:
 
-**1. Micrometer XY-stage**
-https://github.com/openUC2/UC2-MicronStage
+[**1. Micrometer XY-stage**](https://github.com/openUC2/UC2-MicronStage)
 
-**2. Aliexpress Microscop XY-stage**
-https://github.com/openUC2/UC2-Motorized-XY-Table
+[**2. Aliexpress Microscop XY-stage**](https://github.com/openUC2/UC2-Motorized-XY-Table)
 
 **3. Openflexure Stage**
 
@@ -118,15 +119,18 @@ For more infos about the camera look [here](https://github.com/openUC2/UC2-GIT/t
 ## Setup
 
 **Side View:**
+
 <img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Berlin_v3_2.png" width=600>
 
 **Top View:**
+
 <img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Berlin_v3_3.png" width=600>
 
 **Backside View:**
+
 <img src="./IMAGES/Application_Fluorescence_Microscope_Infinity_Berlin_v3.png" width=600>
 
-
+**Find a little [Tutorial on how to make it work here](Tutorial.md)**
 
 ## Showcase
 This is a set of ATTO 647 labelled *e.colis* provided by O. Helle from UiO imaged with a 100x, 1.25, a cellphone (Huawei P20 Pro, monochromatic camera, Freedcam) and a 635/637 nm exciation.
@@ -172,7 +176,7 @@ This is acquired with the Allied Vision Alvium 1500-158 and the new UC2 Nvidia J
 
 ## Get Involved
 
-This project is open so that anyone can get involved. You don't even have to learn CAD designing or programming. Find ways you can contribute in  [CONTRIBUTING](https://github.com/openUC2/UC2-GIT/blob/master/CONTRIBUTING.md)
+This project is open-source so that anyone can get involved. You don't even have to learn CAD designing or programming. Find ways you can contribute in  [CONTRIBUTING](https://github.com/openUC2/UC2-GIT/blob/master/CONTRIBUTING.md)
 
 
 ## License and Collaboration
